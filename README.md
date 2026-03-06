@@ -9,6 +9,7 @@ Implement different types of guardrails to protect AI applications from prompt i
 ## 🎓 Learning Goals
 
 By completing these tasks, you will learn:
+
 - Understand prompt injection attack vectors and defense strategies
 - Implement input validation guardrails using LLM-based detection
 - Build output validation to prevent PII leaks in AI responses
@@ -28,6 +29,7 @@ By completing these tasks, you will learn:
 ## 🔧 Setup
 
 1. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -37,7 +39,8 @@ By completing these tasks, you will learn:
     - Get your DIAL API key from: https://support.epam.com/ess?id=sc_cat_item&table=sc_cat_item&sys_id=910603f1c3789e907509583bb001310c
 
 3. **Project structure:**
-   ```
+
+   ```txt
    tasks/
    ├── _constants.py                       ✅ API configuration
    ├── prompt_injections.md                📚 Attack examples reference
@@ -57,12 +60,13 @@ By completing these tasks, you will learn:
 ### If the task in the main branch is hard for you, then switch to the `with-detailed-description` branch
 
 #### Task 1: Understanding Prompt Injections [prompt_injection.py](tasks/t_1/prompt_injection.py)
+
 #### Task 2: Input Validation Guardrail [input_llm_based_validation.py](tasks/t_2/input_llm_based_validation.py)
-#### Task 3: Output Validation & Streaming Protection: (`t_3/`)[t_3/](tasks/t_3)
+
+#### Task 3: Output Validation & Streaming Protection [t_3/](tasks/t_3)
 
 - **Part A: Output Validation** [output_llm_based_validation.py](tasks/t_3/output_llm_based_validation.py)
 - **Part B: Streaming PII Filter**[streaming_pii_guardrail.py](tasks/t_3/streaming_pii_guardrail.py)
-
 
 ## ✅ Success Criteria
 
